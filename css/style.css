@@ -7,7 +7,7 @@
   --border:#2b303218;
   --text-color:#ffb168;
   --Roboto:"Roboto",sans-serif;
-  --Gugi:"Gugi",cursive;
+  /*--Gugi:"Gugi" font-family:'Gugi', cursive; */
   --Sofia:"sofia",cursive;
 }
 
@@ -39,4 +39,15 @@ header{
 
 header.site.title{
   font-family: var(--Gugi);
+}
+
+.container.dropdown-toggle,
+.container.dropdown-item{
+  font-size: 0.7em;
+}
+
+.header-links a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: white;
 }
